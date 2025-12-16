@@ -1,6 +1,6 @@
 # House Sorter
 
-A Python program that assigns students to four houses (saphine, topaz, agat, ruby) while maintaining existing assignments and balancing the distribution.
+A Python program that assigns students to four houses (sapphire, topaz, agat, ruby) while maintaining existing assignments and balancing the distribution.
 
 ## Features
 
@@ -24,13 +24,13 @@ Your input Excel file should have these columns:
 
 | Student Name | House |
 |--------------|-------|
-| Alice Johnson | saphine |
+| Alice Johnson | sapphire |
 | Bob Smith | topaz |
 | Carol Williams | |
 | David Brown | agat |
 
 - **Student Name**: The student's full name
-- **House**: Either one of the four house names (saphine, topaz, agat, ruby) or empty/blank if not yet assigned
+- **House**: Either one of the four house names (sapphire, topaz, agat, ruby) or empty/blank if not yet assigned
 
 **Note**: Leave the House column empty or blank for students who need to be assigned.
 
@@ -58,7 +58,7 @@ The program will:
 Example output:
 ```
 === Current House Distribution ===
-Saphine: 3 students
+sapphire: 3 students
 Topaz: 2 students
 Agat: 2 students
 Ruby: 2 students
@@ -69,7 +69,7 @@ Need to assign: 11
 Target per house: 5.0
 
 === Final House Distribution ===
-Saphine: 5 students
+sapphire: 5 students
 Topaz: 5 students
 Agat: 5 students
 Ruby: 5 students
@@ -92,4 +92,4 @@ This will create `sample_students_sorted.xlsx` with all students assigned to hou
 - If the total number of students doesn't divide evenly by 4, some houses will have one more student than others
 - Assignments are random for unassigned students
 - The original file is never modified - a new "_sorted" file is always created
-- House names are case-insensitive (Saphine, saphine, SAPHINE all work)
+- House names are case-insensitive (sapphire, sapphire, sapphire all work)
