@@ -92,4 +92,4 @@ This will create `sample_students_sorted.xlsx` with all students assigned to hou
 - If the total number of students doesn't divide evenly by 4, some houses will have one more student than others
 - Assignments are random for unassigned students
 - The original file is never modified - a new "_sorted" file is always created
-- House names are case-insensitive (sapphire, sapphire, sapphire all work)
+- House names are case-insensitive
