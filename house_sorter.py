@@ -34,7 +34,7 @@ def sort_students(df):
     """Sort students into houses, respecting existing assignments"""
     
     # Define house names
-    houses = ['sapphire', 'topaz', 'agat', 'ruby']
+    houses = ['sapphire', 'topaz', 'agate', 'ruby']
     
     # Normalize house names in the dataframe (handle case and whitespace)
     df['House'] = df['House'].apply(lambda x: str(x).strip().lower() if pd.notna(x) else None)
@@ -119,7 +119,7 @@ def save_results(df, output_file):
 
 def print_final_distribution(df):
     """Print final house distribution"""
-    houses = ['sapphire', 'topaz', 'agat', 'ruby']
+    houses = ['sapphire', 'topaz', 'agate', 'ruby']
     
     print("\n=== Final House Distribution ===")
     for house in houses:
